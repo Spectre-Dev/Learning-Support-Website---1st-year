@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Computer Support</title>
+			<link rel="stylesheet" media="all and (orientation:portrait)" href="..\subpage css/MyStyle_portrait.css"></link>
+			<link rel="stylesheet" media="all and (orientation:landscape)" href="..\subpage css/MyStyle_landscape.css"></link>
+			<link rel="shortcut icon" href="..\pics/favicon.ico" type="image/x-icon" />
+	</head>
+		<body>
+		<script src = "http://code.jQuery.com/jquery-latest.min.js" type = "text/javascript"></script>
+		<script src="jquery.backstretch.js"  type = "text/javascript"></script>
+		<script type = "text/javascript">
+		//<![CDATA[
+				$.backstretch(["background.jpg"]);
+		//]]>
+		</script>
+			<div id="topline" style="z-index: 5">
+				<div id="container">
+					<div id="home"><a href="..\index.html"/><p class="toptext" >Home</p></div>
+					<div id="sup"><a href="http://www.ncirl.ie/Campus/StudentServices/SupportServices.aspx" rel = "external"/><p class="toptext" >Support Services</p></div>
+					<div id="faq"><a href="http://www.ncirl.ie/Campus/StudentServices/FAQs.aspx" rel = "external"/><p class="toptext" >FAQ</p></div>
+					<div id="con"><a href="..\page7/index.html" rel = "external"/><p class="toptext" >Contact Us</p></div>
+				</div>
+			</div>
+
+			<div id="searchbox">
+								<script type="text/javascript">
+								//<![CDATA[
+								// Google Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+								// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+								// This notice must stay intact for use
+								//Enter domain of site to search.
+								var domainroot="www.google.com"
+								function Gsitesearch(curobj){
+								curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
+								}
+								//]]>
+								</script>
+								<form action="http://www.google.ie/search" method="get" onsubmit="Gsitesearch(this)">
+								<div>
+								<input name="q" type="hidden" />
+								<input name="qfront" type="text" style="width: 50%" /> <input type="submit" value="Search" />
+								</div>
+								</form>
+		</div>
+		<!-- This is the parent div for time and date -->
+			<div id="timedate">
+					<!-- This is the clock Javascript -->
+					<div id="clock">
+						<span id="tick2">
+						</span>
+							<script type = "text/javascript">
+							//<![CDATA[
+								<!--
+								/*By JavaScript Kit
+								http://javascriptkit.com
+								Credit MUST stay intact for use
+								*/
+
+								function show2(){
+								if (!document.all&&!document.getElementById)
+								return
+								thelement=document.getElementById? document.getElementById("tick2"): document.all.tick2
+								var Digital=new Date()
+								var hours=Digital.getHours()
+								var minutes=Digital.getMinutes()
+								var seconds=Digital.getSeconds()
+								var dn="PM"
+								if (hours<12)
+								dn="AM"
+								if (hours>12)
+								hours=hours-12
+								if (hours==0)
+								hours=12
+								if (minutes<=9)
+								minutes="0"+minutes
+								if (seconds<=9)
+								seconds="0"+seconds
+								var ctime=hours+":"+minutes+":"+seconds+" "+dn
+								thelement.innerHTML="<b style='font-size:14;color:#6E6E6E;'>"+ctime+"</b>"
+								setTimeout("show2()",1000)
+								}
+								window.onload=show2
+								//-->
+							//]]>
+							</script>
+						</div>
+
+				<!-- This is the date Javascript -->
+				<div id = "sc">
+					<script type = "text/javascript">
+					//<![CDATA[
+						var mydate=new Date()
+						var year=mydate.getYear()
+						if (year < 1000)
+						year+=1900
+						var day=mydate.getDay()
+						var month=mydate.getMonth()
+						var daym=mydate.getDate()
+						if (daym<10)
+						daym="0"+daym
+						var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+						var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+						document.write("<small><font color='#6E6E6E' face='Arial'><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+					//]]>
+					</script>
+				</div>
+			</div>
+
+		<div id="banner">
+			<a href="..\index.html"/><img id="nci" src="..\pics/nciLogo1.jpg" alt = "NCI Logo"/>
+			<img id="studtext" src="..\pics/studtext.png" style="z-index: 5" alt = "NCI Logo"/>
+			<img id="studban" src="..\pics/banner2a.png" alt = "NCI Logo"/>
+		</div>
+
+
+		<div id="main">
+					<div id="leftnav">
+						<div><a href="..\page2/index.html"/><p class="navtext">Maths Support</p></div>
+						<div><a href="..\page3/index.html"/><p class="navtext">Learning Development</p></div>
+						<div><a href="index.html"/><p class="navtext">Computing Support</p></div>
+						<div><a href="..\page5/index.html"/><p class="navtext">Disability Support</p></div>
+						<div><a href="..\page5b/index.html"/><p class="navtext">Assistive Technology</p></div>
+						<div><a href="..\page6/index.html"/><p class="navtext">Attendance </p></div>
+				</div>
+			<div id="profparagraph">
+				<div class="profbox"><a href="http://www.linkedin.com/pub/frances-sheridan/19/b78/736" rel = "external"><img src="..\pics/FSheridan.jpg" class="photos" alt = "FSheridan"/></a><p class="titles">Frances Sheridan<br/>Computer Support Tutor </p></div>
+
+
+				<p>Frances Sheridan<br/>Computer Support Tutor<br/><br/>email:frances.sheridan@ncirl.ie<br/></p>
+			<p>The computing support service comprises two full time tutors: one for full-time programmes and another dedicated to part-time programmes.  In addition, the service has a panel of part-time tutors that can provide tuition in any of the computing modules on offer in the School of Computing at NCI.<br/><br/>
+			If a class are finding a particular module or topic difficult and need an additional tutorial, the lecturer or class rep may contact the Support Tutor who will then schedule an extra tutorial for the whole class.<br/><br/>
+			The Computing Support Service also has a Moodle page where you can find a schedule of extra classes and Drop in Workshop hours as well as past exam papers and revision material for some modules.<br/><br/>
+			Exam revision sessions will be held in the run up to each exam session. These sessions will take you through past or sample exam questions and solutions in preparation for the exams.
+			</p>
+				</div>
+		</div>
+
+			<div class="parabox">
+				<p>In semester one the Computing Support Service runs a series of workshops for first year students focussing on the skills needed when settling into a new college course. These include topics such as, touch typing, referencing, research etc.  These sessions are not mandatory but attendance is strongly recommended.<br/><br/>
+				The Computing Support Tutor is available to work with students on a one to one or small group basis.  Students that find that they are falling behind in a module or that are finding a particular topic difficult to understand should contact the Support Tutor for an appointment and get caught up before it becomes a problem.<br/><br/>
+				For further information on Computer Support you can email us at this address computingsupport@ncirl.ie <br/><br/>
+				Frances Sheridan is the Student Support Tutor at National College of Ireland.
+				<br/>e-mail:frances.sheridan@ncirl.ie</p>
+			</div>
+
+			<div class="parabox2">
+				<p> &#169; Copyright National College of Ireland - 2013<br/>Rich - Ian - Martin </p>
+			</div>
+	</body>
+</html>
